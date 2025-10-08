@@ -18,10 +18,10 @@ A Python script that generates QR codes with custom logos embedded in the center
 # Clone the repository to Desktop
 cd ~/Desktop
 git clone https://github.com/OmerINKAYA/fastQRgenerator.git
-cd QRCode
+cd fastQRgenerator
 
 # Set up and run (one-time setup)
-python -m venv .venv
+python -m venv .venv # if python does not work try python3
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
@@ -35,8 +35,8 @@ python fastqr.py
 ```cmd
 cd %USERPROFILE%\Desktop
 git clone https://github.com/OmerINKAYA/fastQRgenerator.git
-cd QRCode
-python -m venv .venv
+cd fastQRgenerator
+python -m venv .venv # if python does not work try python3
 .venv\Scripts\activate
 pip install -r requirements.txt
 python fastqr.py

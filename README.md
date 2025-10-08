@@ -36,7 +36,7 @@ python fastqr.py
 cd %USERPROFILE%\Desktop
 git clone https://github.com/OmerINKAYA/fastQRgenerator.git
 cd fastQRgenerator
-python -m venv .venv # if python does not work try python3
+python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 python fastqr.py
@@ -99,12 +99,12 @@ QRCode/
 
 **macOS/Linux:**
 ```bash
-cd ~/Desktop && git clone https://github.com/YOUR_USERNAME/QRCode.git && cd QRCode && python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt && python fastqr.py
+cd ~/Desktop && git clone https://github.com/OmerINKAYA/fastQRgenerator && cd QRCode && python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt && python fastqr.py
 ```
 
 **Windows:**
 ```cmd
-cd %USERPROFILE%\Desktop && git clone https://github.com/YOUR_USERNAME/QRCode.git && cd QRCode && python -m venv .venv && .venv\Scripts\activate && pip install -r requirements.txt && python fastqr.py
+cd %USERPROFILE%\Desktop && git clone https://github.com/OmerINKAYA/fastQRgenerator && cd QRCode && python -m venv .venv && .venv\Scripts\activate && pip install -r requirements.txt && python fastqr.py
 ```
 
 ## 🔧 Troubleshooting

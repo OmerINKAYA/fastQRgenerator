@@ -70,7 +70,7 @@ python fastqr.py
 
 ### Test with Sample Logo:
 ```python
-logo_file = "sample_logo.png"  # Use the included sample logo
+logo_file = "logo_green.png"  # Use the included sample logo
 ```
 
 ## How It Works
@@ -87,12 +87,12 @@ The script:
 
 ```
 QRCode/
-├── fastqr.py              # Main script (edit variables here)
-├── requirements.txt       # Python dependencies  
+├── fastqr.py             # Main script (edit variables here)
+├── requirements.txt      # Python dependencies  
 ├── README.md             # This file
 ├── EXAMPLES.md           # Example files documentation
 ├── logo_green.png        # Original logo file
-├── sample_logo.png       # Sample logo for testing
+├── logo_green.png        # Sample logo for testing
 └── qr_with_logo.png      # Generated QR code output (after running)
 ```
 

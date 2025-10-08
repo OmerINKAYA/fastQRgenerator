@@ -91,8 +91,7 @@ QRCode/
 ├── requirements.txt      # Python dependencies  
 ├── README.md             # This file
 ├── EXAMPLES.md           # Example files documentation
-├── logo_green.png        # Original logo file
-├── logo_green.png        # Sample logo for testing
+├── logo_green.png        # Sample logo file
 └── qr_with_logo.png      # Generated QR code output (after running)
 ```
 
